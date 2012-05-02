@@ -15,6 +15,7 @@
 		9F154A3D1551142600D07D06 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F154A3C1551142600D07D06 /* AppDelegate.m */; };
 		9F154A401551142600D07D06 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F154A3F1551142600D07D06 /* ViewController.m */; };
 		9F154A431551142600D07D06 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F154A411551142600D07D06 /* ViewController.xib */; };
+		9F154A4A1551151B00D07D06 /* malaysia-flag.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F154A491551151B00D07D06 /* malaysia-flag.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +23,16 @@
 		9F154A2C1551142600D07D06 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		9F154A2E1551142600D07D06 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9F154A301551142600D07D06 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		9F154A341551142600D07D06 /* GestureRecognizerSample-Info.plist */ = {isa = PBXFileReference; path = "GestureRecognizerSample-Info.plist"; sourceTree = "<group>"; };
+		9F154A341551142600D07D06 /* GestureRecognizerSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GestureRecognizerSample-Info.plist"; sourceTree = "<group>"; };
 		9F154A361551142600D07D06 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9F154A381551142600D07D06 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		9F154A3A1551142600D07D06 /* GestureRecognizerSample-Prefix.pch */ = {isa = PBXFileReference; path = "GestureRecognizerSample-Prefix.pch"; sourceTree = "<group>"; };
-		9F154A3B1551142600D07D06 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		9F154A3A1551142600D07D06 /* GestureRecognizerSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GestureRecognizerSample-Prefix.pch"; sourceTree = "<group>"; };
+		9F154A3B1551142600D07D06 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9F154A3C1551142600D07D06 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9F154A3E1551142600D07D06 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		9F154A3E1551142600D07D06 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		9F154A3F1551142600D07D06 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		9F154A421551142600D07D06 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		9F154A491551151B00D07D06 /* malaysia-flag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "malaysia-flag.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		9F154A321551142600D07D06 /* GestureRecognizerSample */ = {
 			isa = PBXGroup;
 			children = (
+				9F154A491551151B00D07D06 /* malaysia-flag.png */,
 				9F154A3B1551142600D07D06 /* AppDelegate.h */,
 				9F154A3C1551142600D07D06 /* AppDelegate.m */,
 				9F154A3E1551142600D07D06 /* ViewController.h */,
@@ -151,6 +154,7 @@
 			files = (
 				9F154A371551142600D07D06 /* InfoPlist.strings in Resources */,
 				9F154A431551142600D07D06 /* ViewController.xib in Resources */,
+				9F154A4A1551151B00D07D06 /* malaysia-flag.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,6 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController {
+    CGFloat firstX;
+	CGFloat firstY;
+}
+
+@property (retain, nonatomic) IBOutlet UIImageView *imageView;
+
+- (void)handleTapRecognizerFrom:(UIGestureRecognizer *)gesture;
+- (void)handleLongPressRecognizerFrom:(UIGestureRecognizer *)gesture;
+- (void)handleSwipeRecognizerFrom:(UIGestureRecognizer *)gesture;
 
 @end
